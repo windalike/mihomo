@@ -1,8 +1,8 @@
 # 注意规则在满足自己需求情况下，尽量做到精简，不要过度复杂，以免影响性能。
 # 机场订阅
 proxy-providers:
-  SubALL:
-    url: "https://sub.windalike.top/CmkuOgKi70E2td1AH86N/download/collection/All?target=ClashMeta"
+  机场订阅1:
+    url: ".。。。。。。。"
     type: http
     interval: 86400
     health-check:
@@ -89,13 +89,13 @@ dns:
     - "+.msftncsi.com"
     - "time.*.com"
   default-nameserver:
-    - 117.50.10.10
+    - 223.5.5.5
     - 119.29.29.29
   proxy-server-nameserver:
     - https://223.5.5.5/dns-query
   # namesever尽量用运营商提供的DNS
   nameserver:
-    - 117.50.10.10
+    - 223.5.5.5
     - 119.29.29.29
  
 # 出站策略
@@ -129,7 +129,6 @@ proxy-groups:
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
 rules:
   - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
-  #- SRC-IP-CIDR, 10.0.0.241/32,🇭🇰 香港自动
   - RULE-SET,private_domain,直连
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite,🚀 默认代理
